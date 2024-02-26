@@ -1,0 +1,5 @@
+﻿  main.cpp
+  win32_platform.cpp
+C:\buas application\Martijns_C_Plus_Plus_Collection_Game\main.cpp(3,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Generating Code...
+  Martijns_Collection_game_2024.vcxproj -> C:\buas application\Martijns_C_Plus_Plus_Collection_Game\x64\Debug\Martijns_Collection_game_2024.exe
