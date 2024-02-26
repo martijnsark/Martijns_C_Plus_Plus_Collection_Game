@@ -1,4 +1,4 @@
-This game is made by Martijn van der Willigen for the application of BUAS programming.
+This game is made by Martijn van der Willigen in 2024-2024
 
 
 
