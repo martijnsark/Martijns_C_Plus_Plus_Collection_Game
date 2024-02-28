@@ -13,6 +13,9 @@ struct Render_State {
 
 Render_State render_state;
 
+#include "renderer.cpp"
+//#include "utils.cpp"
+
 
 LRESULT CALLBACK window_callback(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam) {
 	LRESULT result = 0;
@@ -88,13 +91,8 @@ int WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int n
 
 
 		//simulate
-		unsigned int* pixel = (unsigned int*) render_state.memory;
-		for (int y = 0; y < render_state.height; y++) {
-			for (int x = 0; x < render_state.width; x++) {
-				*pixel++ = x+y;
-			}
-		}
-
+		clear_screen(0xff5500);
+		draw_rect(50, 50, 200, 500, 0x00ff22);
 
 
 		//render
