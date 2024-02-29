@@ -1,5 +1,1 @@
-﻿  main.cpp
-C:\stage projecten\Martijns_C_Plus_Plus_Collection_Game\main.cpp(3,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
-  win32_platform.cpp
-  Generating Code...
-  Martijns_Collection_game_2024.vcxproj -> C:\stage projecten\Martijns_C_Plus_Plus_Collection_Game\x64\Debug\Martijns_Collection_game_2024.exe
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(439,5): error MSB8020: The build tools for v143 (Platform Toolset = 'v143') cannot be found. To build using the v143 build tools, please install v143 build tools.  Alternatively, you may upgrade to the current Visual Studio tools by selecting the Project menu or right-click the solution, and then selecting "Retarget solution".

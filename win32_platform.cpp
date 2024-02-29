@@ -1,7 +1,7 @@
 #include <windows.h>
+#include "utils.cpp"
 
-
-bool running = true;
+global_variable bool running = true;
 
 
 struct Render_State {
@@ -11,10 +11,10 @@ struct Render_State {
 	BITMAPINFO bitmap_info;
 };
 
-Render_State render_state;
+global_variable Render_State render_state;
 
 #include "renderer.cpp"
-//#include "utils.cpp"
+
 
 
 LRESULT CALLBACK window_callback(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam) {
@@ -92,7 +92,7 @@ int WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int n
 
 		//simulate
 		clear_screen(0xff5500);
-		draw_rect(50, 50, 200, 500, 0x00ff22);
+		draw_rect(0, 0, .2, .2, 0x00ff22);
 
 
 		//render
