@@ -1,14 +1,14 @@
 ﻿  win32_platform.cpp
-C:\buas application\Martijns_C_Plus_Plus_Collection_Game\renderer.cpp(41,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\buas application\Martijns_C_Plus_Plus_Collection_Game\renderer.cpp(47,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
   (compiling source file 'win32_platform.cpp')
   
-C:\buas application\Martijns_C_Plus_Plus_Collection_Game\renderer.cpp(42,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\buas application\Martijns_C_Plus_Plus_Collection_Game\renderer.cpp(48,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
   (compiling source file 'win32_platform.cpp')
   
-C:\buas application\Martijns_C_Plus_Plus_Collection_Game\renderer.cpp(43,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\buas application\Martijns_C_Plus_Plus_Collection_Game\renderer.cpp(49,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
   (compiling source file 'win32_platform.cpp')
   
-C:\buas application\Martijns_C_Plus_Plus_Collection_Game\renderer.cpp(44,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\buas application\Martijns_C_Plus_Plus_Collection_Game\renderer.cpp(50,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
   (compiling source file 'win32_platform.cpp')
   
   Martijns_Collection_game_2024.vcxproj -> C:\buas application\Martijns_C_Plus_Plus_Collection_Game\x64\Debug\Martijns_Collection_game_2024.exe
